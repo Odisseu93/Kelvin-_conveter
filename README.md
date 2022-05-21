@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../images/challenge.png" width="50%" eigth="50%">
+<img src="./images/challenge.png" width="50%" eigth="50%">
 </div>
 
 
