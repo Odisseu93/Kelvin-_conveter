@@ -1,3 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  background: tomato;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 18px;
+}
+body h1 {
+  text-align: center;
+  letter-spacing: 0.7em;
+  text-transform: uppercase;
+}
 
+.main {
+  box-sizing: border-box;
+  padding: 0.3em;
+  margin: 0 auto;
+  background: hsl(243deg, 100%, 93%);
+  width: 80%;
+  border-radius: 10px 90px 10px 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500px;
+}
+.form .field-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.form .field-1 .form-title {
+  padding-right: 10px;
+}
+.form .field-1-inp-kelvin {
+  width: 60px;
+}
+.form .field-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  border: none;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 110px;
+}
+.form .field-2 label {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  width: 100%;
+}
+.form .field-2 .options-input {
+  width: 100%;
+}
+.form .field-2-convert {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.form .field-2-convert-btn {
+  width: 50%;
+  font-weight: bold;
+  height: 30px;
+  background: hsl(228deg, 56%, 26%);
+  color: hsl(243deg, 100%, 93%);
+}
+.form .result {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.form .result_uni {
+  color: Blue;
+  font-weight: bold;
+}
+.form .formula {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: tomato;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.3em;
+  }
+
+  .main {
+    margin-top: 3em;
+    max-width: 600px;
+  }
+
+  .field-2-convert-btn:hover, .field-1-inp-kelvin:hover {
+    cursor: pointer;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

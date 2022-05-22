@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap')
+
+$bg-color: tomato
+$font: 'Raleway', sans-serif
+$font-pale-blue-color: hsl(243, 100%, 93%)
+$Dark-Blue-color: hsl(228, 56%, 26%)
+
+//to include display flex  
+@mixin flex($d: column, $jc: space-evenly)
+  display: flex
+  flex-direction: $d
+  justify-content: $jc
+
+// 375px devices 
+body
+  font-family: $font
+  background: $bg-color 
+  padding: 0  
+  margin: 0
+  width: 100vw
+  height: 100vh
+  font-size: 18px
+  h1
+    text-align: center
+    letter-spacing: 0.7em
+    text-transform: uppercase
+
+.main
+  box-sizing: border-box
+  padding: 0.3em
+  margin: 0 auto
+  background: $font-pale-blue-color
+  width: 80%
+  border-radius: 10px 90px 10px 20px
+
+.form
+  @include flex
+  height: 500px 
+  
+  .field-1 
+    @include flex($d: row , $jc: center)
+    // padding: 10px
+    flex-wrap: wrap
+    margin-top: 30px
+    .form-title
+      padding-right: 10px 
+    &-inp-kelvin
+      width: 60px  
+
+  .field-2
+    @include flex($d:column , $jc: space-around )
+    margin: 0 auto
+    border: none
+    flex-wrap: wrap
+    align-items: center
+    width: 50%
+    height: 110px
+    & label
+      text-align: center
+      display: block
+      font-weight: bold
+      width: 100%
+    & .options-input
+      width: 100%  
+
+  .field-2-convert
+    @include flex($d: row , $jc: center)
+    width: 100%
+    align-items: center
+    &-btn
+      width: 50%
+      font-weight: bold
+      height: 30px
+      background: $Dark-Blue-color 
+      color: $font-pale-blue-color
+
+  .result 
+    width: 100%
+    display: inline-block
+    text-align: center
+    &_uni
+      color: Blue
+      font-weight: bold 
+
+  .formula
+    @include flex($d: row , $jc: center)
+    color: $bg-color
+
+@media (min-width: 768px)
+  body
+    font-size: 1.3em
+
+  .main
+    margin-top: 3em
+    max-width: 600px  
+
+  .field-2-convert-btn, .field-1-inp-kelvin
+    &:hover
+      cursor: pointer
