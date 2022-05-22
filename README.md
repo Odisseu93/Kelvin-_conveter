@@ -12,6 +12,7 @@
 This is a solution to the Learn JavaScript course  "the [Kelvin Weather](https://www.codecademy.com/courses/introduction-to-javascript/projects/kelvin-weather-javascript) project"
 </div>
 
+### Deploy: 
 
 ### Built with
 - [React.js](https://reactjs.org/)
