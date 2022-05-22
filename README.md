@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./images/challenge.png" width="50%" eigth="50%">
+<img src="https://content.codecademy.com/projects/introduction-to-javascript/learn-javascript-introduction/kelvin-weather/Kelvin%20Thermometers.svg" width="50%" eigth="50%">
 </div>
 
 
