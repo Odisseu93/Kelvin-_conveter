@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kelvin to ºC, ºF and ºN - Converter Online</title>
 </head>
+
 <body>
- <form action="" class="form">
-    <h1></h1>
-     <label for="inp_kelvin">
-        <spán class="form-title">
-          <strong>Kelvin<strong>
-          </span>   
-     </label> 
-    <input type="number" class="form-inp-kelvin" id="inp_kelvin">
- </form> 
+  <main class="main">
+    <form action="" class="form">
+      <h1>Kelvin converter</h1>
+      <fieldset class="field-1">
+        <label for="inp_kelvin">
+          <span class="form-title">
+            <strong>Kelvin<strong>
+          </span>
+        </label>
+        <input type="number" class="field-1-inp-kelvin" id="inp_kelvin">
+      </fieldset>
+      <fieldset class="field-2">
+        <div class="radioGroup">
+          <!-- for Celsius temperature convection -->
+          <label for="options-input-celsius">Celsius</label>
+          <input type="radio" value="celsius" name="options-input" class="options-input" id="options-input-celsius"
+            checked>
+          <!-- for Fahrenheit temperature convection -->
+          <label for="options-input-fahrenheit">Fahrenheit</label>
+          <input type="radio" value="fahrenheit" name="options-input" class="options-input"
+            id="options-input-fahrenheit">
+          <!-- for Newton temperature convection -->
+          <label for="options-input-newton">Newton</label>
+          <input type="radio" value="newton" name="options-input" class="options-input" id="options-input-newton">
+        </div>
+      </fieldset>
+      <fieldset class="field-2">
+        <label>
+          <div class="result">
+            <strong class="result_val" id="result_val">0
+              <sub class="result_uni" id="result_Val_unit">C</sub>
+            </strong>
+          </div>
+        </label>
+      </fieldset>
+    </form>
+  </main>
+  <script src="script.js"></script>
 </body>
+
 </html>
