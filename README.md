@@ -12,14 +12,11 @@
 This is a solution to the Learn JavaScript course  "the [Kelvin Weather](https://www.codecademy.com/courses/introduction-to-javascript/projects/kelvin-weather-javascript) project"
 </div>
 
-### Deploy: 
+### Deploy: [👀🌐](https://kelvin-conveter-22dwpz720-odisseu93.vercel.app/)
 
 ### Built with
-- [React.js](https://reactjs.org/)
 - JavaScript
 - HTML5
 - [SASS](https://sass-lang.com/documentation)
-- [Axios](https://axios-http.com/)
 - CSS 
-- [API Advice Slip](https://api.adviceslip.com/)
 - Mobile-first workflow
