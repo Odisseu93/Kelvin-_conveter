@@ -9,7 +9,7 @@ const op_new = document.querySelector("#options-input-newton");
 function selected() {
 
   const celsius = Math.round(kelvin.value - 273);
-  const fahrenheit = celsius * (9/5);
+  const fahrenheit = celsius * (9/5) + 32;
   const newton = celsius * (33/100);
   const formula_field = document.querySelector('#formula_field');
   
