@@ -20,7 +20,7 @@ body h1 {
   margin: 0 auto;
   background: hsl(243deg, 100%, 93%);
   width: 90%;
-  border-radius: 10px 90px 10px 20px;
+  border-radius: 10px 110px 10px 20px;
 }
 
 .form {
@@ -33,14 +33,21 @@ body h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  border: none;
   flex-wrap: wrap;
+  align-items: center;
   margin-top: 30px;
 }
-.form .field-1 .form-title {
+.form .field-1 .kelvin-title {
   padding-right: 10px;
 }
 .form .field-1-inp-kelvin {
+  padding-left: 5px;
   width: 60px;
+  height: 20px;
+  color: hsl(228deg, 56%, 26%);
+  font-weight: 800;
+  border: 1px solid hsl(228deg, 56%, 26%);
 }
 .form .field-2 {
   display: flex;
@@ -102,7 +109,7 @@ body h1 {
     max-width: 600px;
   }
 
-  .field-2-convert-btn:hover, .field-1-inp-kelvin:hover {
+  .field-2-convert-btn:hover, .field-1-inp-kelvin:hover, .field-2 label:hover, .options-input:hover {
     cursor: pointer;
   }
 }

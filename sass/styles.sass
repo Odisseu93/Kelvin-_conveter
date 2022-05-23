@@ -31,7 +31,7 @@ body
   margin: 0 auto
   background: $font-pale-blue-color
   width: 90%
-  border-radius: 10px 90px 10px 20px
+  border-radius: 10px 110px 10px 20px
 
 .form
   @include flex
@@ -39,13 +39,19 @@ body
   
   .field-1 
     @include flex($d: row , $jc: center)
-    // padding: 10px
+    border: none
     flex-wrap: wrap
+    align-items: center
     margin-top: 30px
-    .form-title
+    .kelvin-title
       padding-right: 10px 
     &-inp-kelvin
+      padding-left: 5px
       width: 60px  
+      height: 20px
+      color: $Dark-Blue-color
+      font-weight: 800 
+      border: 1px solid $Dark-Blue-color
 
   .field-2
     @include flex($d:column , $jc: space-around )
@@ -94,6 +100,6 @@ body
     margin-top: 3em
     max-width: 600px  
 
-  .field-2-convert-btn, .field-1-inp-kelvin
+  .field-2-convert-btn, .field-1-inp-kelvin, .field-2 label, .options-input
     &:hover
       cursor: pointer
