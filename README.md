@@ -12,7 +12,7 @@
 This is a solution to the Learn JavaScript course  "the [Kelvin Weather](https://www.codecademy.com/courses/introduction-to-javascript/projects/kelvin-weather-javascript) project"
 </div>
 
-### Deploy: [👀🌐](https://kelvin-conveter-dbv00dgq6-odisseu93.vercel.app/)
+### Deployment: [👀🌐 Here!](https://kelvin-conveter-dbv00dgq6-odisseu93.vercel.app/)
 
 ### Built with
 - JavaScript
@@ -20,3 +20,5 @@ This is a solution to the Learn JavaScript course  "the [Kelvin Weather](https:/
 - [SASS](https://sass-lang.com/documentation)
 - CSS 
 - Mobile-first workflow
+
+### Coded by [Ulisses Slvério](https://github.com/Odisseu93).
